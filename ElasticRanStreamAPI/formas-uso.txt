@@ -1,0 +1,12 @@
+http://localhost:9901/UC?wsdl
+
+soapUI: 
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:elas="http://elasticranstreamapi/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <elas:download>
+         <!--Optional:-->
+         <arg0>"C:\Users\leandro.andrioli\Documents\NetBeansProjects\ElasticRanStreamAPI\teste"</arg0>
+      </elas:download>
+   </soapenv:Body>
+</soapenv:Envelope>
